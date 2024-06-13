@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkmagenta;
+}
+.img {
+    width: 340px;
+    height: 290px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(123, 156, 74);
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    background: #c1eea7;
+    &:hover {
+        border: 4px solid rgb(67, 68, 66);
+        background: #e3c88f;
+        cursor: pointer;
+    }
+}
+span {
+    margin-bottom: 7px;
+}
+.email {
+    color: rgb(53, 2, 101);
+}
+h2 {
+    color: black;
+}
